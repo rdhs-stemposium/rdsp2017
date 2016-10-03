@@ -4,6 +4,7 @@ body {
     font-size: 18px;
     background-color: rgb(24,24,24);
     color: rgb(255,255,255);
+    overflow: hidden;
 }
 
 /* Navbar */
@@ -29,7 +30,7 @@ body {
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:hover:after {
-   border-top: 2px solid rgb(255, 213, 62);
+   border-top: 4px solid rgb(255, 213, 62);
    bottom: 48;
    content: "";
    left: 0;
@@ -53,7 +54,7 @@ body {
 }
 
 .navbar-default .navbar-nav > .active > a:after {
-   border-top: 2px solid rgb(254,199,4);
+   border-top: 4px solid rgb(254,199,4);
    bottom: 48;
    content: "";
    left: 0;
@@ -136,3 +137,9 @@ body {
 .navbar-toggle.collapsed .bottom-bar {
   transform: rotate(0);
 }
+
+.header-logo {
+    max-width: 75%;
+    
+}
+
