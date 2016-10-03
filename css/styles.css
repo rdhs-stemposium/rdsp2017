@@ -4,7 +4,12 @@ body {
     font-size: 18px;
     background-color: rgb(24,24,24);
     color: rgb(255,255,255);
-    overflow: hidden;
+    margin-top: 40px;
+    position: relative;
+}
+
+iframe {
+ width: 100%;
 }
 
 /* Navbar */
@@ -60,8 +65,10 @@ body {
    left: 0;
    position: absolute;
   width: 100%;
+  background-color: rgb(24,24,24);
 }
 
+.navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
@@ -140,6 +147,61 @@ body {
 
 .header-logo {
     max-width: 75%;
+    padding-bottom: 150px;
+}
+
+.section-body {
+    padding-top: 25px;
+    padding-bottom: 25px;  
+}
+
+.col-content {
+    background-color: rgb(37,37,37);
+    padding-left: 50px;
+    padding-right: 50px;
+    
+
+}
+
+.col-about {
+    height: 450px;
+    font-size: 20px;
+}
+
+.col-title-sm-left {
+    width: 350px;
+    height: 450px;
+}
+
+.about-headers {
+    font-family: 'Patua One', serif;
+    font-size: 48px;
     
 }
 
+footer {
+    min-height: 120px;
+    background-color: rgb(30,30,30);
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 0px; !important
+    
+}
+
+div .footer-content {
+    
+    text-align: center;
+    align-items: center;
+}
+
+.breaks {
+padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container-section-body {
+    background-color: rgb(37,37,37);
+}
+
+p .description {
+}
