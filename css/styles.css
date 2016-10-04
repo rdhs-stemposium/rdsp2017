@@ -146,7 +146,7 @@ iframe {
 }
 
 .header-logo {
-    max-width: 75%;
+    max-width: 100%;
     padding-bottom: 150px;
 }
 
@@ -204,4 +204,11 @@ padding-top: 15px;
 }
 
 p .description {
+}
+
+.footer-cover {
+    color: rgba(255, 255, 255, 0.24);
+        bottom: 10px;
+        width: 100%;
+        position: fixed;
 }
