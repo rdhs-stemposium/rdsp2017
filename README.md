@@ -1,6 +1,6 @@
-# STEMposium 2017 Website
+# River Dell STEMposium 2017 Website
 
-A website for the 5th Annual STEMposium, a symposium
+The website for the 5th Annual STEMposium, a symposium held at River Dell Regional High School.
 
 ## What is the STEMposium?
 The STEMposium is a science symposium hosted by the Science Research class at River Dell High School. The course is provided by SUNY Albany's UHS program. Students will present their original research at the event.
