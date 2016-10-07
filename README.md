@@ -1,2 +1,17 @@
-# 2017
-RDHS STEMPOSIUM SITE 2017
+# STEMposium 2017 Website
+
+A website for the 5th Annual STEMposium, a symposium
+
+## What is the STEMposium?
+The STEMposium is a science symposium hosted by the Science Research class at River Dell High School. The course is provided by SUNY Albany's UHS program. Students will present their original research at the event.
+
+## Who made this?
+The wesbite was created by Michael Vasile [github: Michaelvas17] and Greg Sarafian [github: GregSarafian]. Additional contributions were made by the students of the Science Research class at River Dell.
+
+## Special Thanks
+The devs would like to extend their gratitude to:
+- Dr. Chin Chu - Instructor of Science Research
+- Mrs. Lorraine Brooks - Principal of RDHS
+- Mr. Jeff Principe & Dr. Jennifer Chatmon - Vice Principals of RDHS
+- Mrs. Marianthe Williams - District Supervisor of Technology
+- Michael Vasile - He's cool.
