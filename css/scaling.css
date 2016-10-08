@@ -33,4 +33,17 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
 
+      .header-logo {
+          max-width: 100% !important;
+          padding-top: 0px;
+          margin-top: -50px;
+          
+         
+      }
+      
+      body .homepage {
+          margin-top: -40px;
+          
+      }
+      
 }
