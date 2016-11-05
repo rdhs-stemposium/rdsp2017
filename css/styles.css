@@ -150,6 +150,15 @@ iframe {
     padding-top: 10px;
 }
 
+
+.headwrap {
+    width: 100%;
+    padding: 0;
+    display: table;
+    
+    
+}
+
 .section-body {
     padding-top: 25px;
     padding-bottom: 25px;  
