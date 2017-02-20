@@ -1,0 +1,14 @@
+/* Custom Styling for the site */
+/* Property of River Dell Regional Schools */
+
+
+a {
+  cursor: pointer;
+}
+
+.nav-div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom-color: rgba(147, 147, 147);
+  border-bottom-width: thin;
+}
