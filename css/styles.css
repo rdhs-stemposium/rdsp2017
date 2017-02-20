@@ -1,14 +1,26 @@
 /* Custom Styling for the site */
 /* Property of River Dell Regional Schools */
 
+/* Import custom font, Karla, from Google Fonts  */
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
 
+/* Boilerplate styling */
+body {
+  font-family: Karla, sans-serif;
+}
 a {
   cursor: pointer;
+  color: inherit;
 }
 
-.nav-div {
-  padding-top: 5px;
+a:hover {
+  color:inherit;
+}
+
+/* Nav elements */
+#nav {
+  padding-top: 7px;
   padding-bottom: 5px;
-  border-bottom-color: rgba(147, 147, 147);
-  border-bottom-width: thin;
+  border-bottom: .5px solid rgb(144, 144, 144);
+  color: #000;
 }
