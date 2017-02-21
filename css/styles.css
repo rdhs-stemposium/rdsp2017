@@ -72,6 +72,34 @@ a:hover {
   padding-right: 10px;
 }
 
+.event-heading {
+  font-size: 24pt;
+  font-weight: 700;
+}
+
+.event-details {
+  font-size: 18pt;
+}
+
+.keynote-name {
+  font-size: 26pt;
+  font-weight: 700;
+}
+
+.keynote-details {
+  font-size: 18pt;
+}
+
+.project-title {
+  padding-top: 5px;
+  font-size: 24pt;
+  font-weight: 700;
+}
+
+.project-subtitle {
+  font-size: 18pt;
+}
+
 /* Divs */
 #header {
   text-align: center;
@@ -86,6 +114,7 @@ a:hover {
 
 .section {
   padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 .section-content {
@@ -103,10 +132,20 @@ a:hover {
 
 .footer-content {
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 .footer-links {
   text-align: right;
+}
+
+.project {
+  align-items: center;
+  text-align: center;
+}
+
+.project-line {
+  padding-top: 10px;
 }
 
 
@@ -117,4 +156,38 @@ a:hover {
   padding-right: 15px;
   padding-bottom: 10px;
   width: 75px;
+}
+
+/* Google Maps Fix */
+.overlay {
+
+   background:transparent;
+   position:relative;
+   width:100%;
+   height:550px; /* your iframe height */
+   top:550px;  /* your iframe height */
+   margin-top:-550px;  /* your iframe height */
+}
+
+/* Bootstrap Components */
+.btn-one {
+  color: rgb(30,30,30) !important;
+  background-color: transparent;
+  border-color: rgb(0, 0, 0);;
+  border-radius: 0px;
+  border-width: 3px;
+  font-size: 30pt;
+  width: 200px;
+  font-weight: 700 !important;
+
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+
+}
+
+.btn-one:hover, .btn-one:focus, .btn-one:active, .btn-one.active, .open > .btn-one.dropdown-toggle {
+    color: #fffbf1 !important;
+  background-color: rgb(0,0,0);
+  border-color: rgb(0,0,0);
 }
