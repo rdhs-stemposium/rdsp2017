@@ -13,23 +13,23 @@
           <script src="js/bootstrap.js"></script>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       </head>
-      <body>
+      <body data-spy="scroll" data-target="#nav">
         <div class="container-fluid fixed-top" id="nav">
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Event</a>
+              <a class="nav-link" href="#event">Event</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Keynote</a>
+              <a class="nav-link" href="#keynote">Keynote</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">RSVP</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
             </li>
           </ul>
         </div>
@@ -138,5 +138,27 @@
             </div>
           </div>
         </div>
+
+        <!--- JS --->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+        $(function() {
+
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 500);
+                return false;
+              }
+            }
+          });
+
+        });
+        </script>
       </body>
   </html>
