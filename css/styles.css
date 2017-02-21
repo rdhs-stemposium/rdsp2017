@@ -6,21 +6,60 @@
 
 /* Boilerplate styling */
 body {
-  font-family: Karla, sans-serif;
-}
-a {
-  cursor: pointer;
-  color: inherit;
-}
-
-a:hover {
-  color:inherit;
+  font-family: Karla, sans-serif !Important;
+  background-color: #fffbf1;
 }
 
 /* Nav elements */
 #nav {
   padding-top: 7px;
   padding-bottom: 5px;
-  border-bottom: .5px solid rgb(144, 144, 144);
+  border-bottom: .5px solid #e0ddd4;
   color: #000;
+  position: sticky;
+}
+
+/* Text styles */
+a {
+  cursor: pointer;
+  color: #000;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.5);
+
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.header-subtitle {
+  font-weight: 400;
+}
+
+.header-byline {
+
+}
+
+/* Divs */
+#header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#header-icons {
+  padding-top: 50px !important;
+  display: inline;
+  text-align: center;
+}
+
+/* Icon Resizing */
+.icon {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  width: 75px;
 }
