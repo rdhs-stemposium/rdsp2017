@@ -6,7 +6,7 @@ The website for the 5th Annual STEMposium, a symposium held at River Dell Region
 The STEMposium is a science symposium hosted by the Science Research class at River Dell High School. The course is provided by SUNY Albany's UHS program. Students will present their original research at the event.
 
 ## Who made this?
-The wesbite was created by Michael Vasile [github: Michaelvas17] and Greg Sarafian [github: GregSarafian]. Additional contributions were made by the students of the Science Research class at River Dell.
+The wesbite was created by [Michael Vasile](https://github.com/Michaelvas17) and [Greg Sarafian](https://github.com/GregSarafian). Additional contributions were made by the students of the Science Research class at River Dell.
 
 ## Special Thanks
 The devs would like to extend their gratitude to:
