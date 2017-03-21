@@ -20,6 +20,7 @@ body {
   color: #000;
   background-color: inherit;
   position: sticky;
+  font-size: 2vh;
 }
 
 /* Text styles */
@@ -48,6 +49,10 @@ a:hover {
 
 .header-byline {
 
+}
+
+.header-logo {
+  max-width: 75%;
 }
 
 .section-title {
