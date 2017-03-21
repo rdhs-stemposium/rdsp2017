@@ -29,13 +29,17 @@ a {
   color: #000 !important;
 }
 
-a:hover {
-  color: rgba(0, 0, 0, 0.5) !important;
-
+#nav a {
+  border-bottom: 4px solid transparent;
 }
 
-.active {
-  font-weight: 700;
+a:hover {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#nav .active {
+  border-bottom: 4px solid #000;
+  transition: all 0.2s ease;
 }
 
 .header-title {
@@ -96,7 +100,7 @@ a:hover {
 }
 
 .project-title {
-  padding-top: 5px;
+  padding-top: 5rem !important;
   font-size: 24pt;
   font-weight: 700;
 }
@@ -150,9 +154,12 @@ a:hover {
 }
 
 .project-line {
-  padding-top: 10px;
+  padding-top: 5rem;
 }
 
+.project-icon {
+  padding-bottom: 1.5rem;
+}
 
 /* Icon Resizing */
 .icon {
