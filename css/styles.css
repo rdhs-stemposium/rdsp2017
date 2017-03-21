@@ -15,7 +15,7 @@ body {
 /* Nav elements */
 #nav {
   padding-top: 7px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   border-bottom: .5px solid #e0ddd4;
   color: #000;
   background-color: inherit;
@@ -30,15 +30,20 @@ a {
 }
 
 #nav a {
-  border-bottom: 4px solid transparent;
+  border-bottom: 3px solid transparent;
 }
 
 a:hover {
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
+#nav a:hover {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease;
+}
+
 #nav .active {
-  border-bottom: 4px solid #000;
+  border-bottom: 3px solid #000;
   transition: all 0.2s ease;
 }
 
@@ -60,9 +65,10 @@ a:hover {
 }
 
 .section-title {
-  font-size: 42pt;
+  font-size: 40pt;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 .section-divider {
@@ -82,31 +88,35 @@ a:hover {
 }
 
 .event-heading {
-  font-size: 24pt;
+  font-size: 20pt;
   font-weight: 700;
 }
 
 .event-details {
-  font-size: 18pt;
+  font-size: 16pt;
 }
 
 .keynote-name {
-  font-size: 26pt;
+  font-size: 20pt;
   font-weight: 700;
 }
 
 .keynote-details {
-  font-size: 18pt;
+  font-size: 16pt;
 }
 
 .project-title {
   padding-top: 5rem !important;
-  font-size: 24pt;
+  font-size: 20pt;
   font-weight: 700;
 }
 
 .project-subtitle {
-  font-size: 18pt;
+  font-size: 16pt;
+}
+
+.project-description {
+  padding-top: 2rem
 }
 
 /* Divs */
@@ -202,6 +212,10 @@ a:hover {
     color: #fffbf1 !important;
   background-color: rgb(0,0,0);
   border-color: rgb(0,0,0);
+}
+
+#rsvp {
+  padding-top: 1rem;
 }
 
 .modal {
