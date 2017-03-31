@@ -253,3 +253,8 @@ a:hover {
   border-radius: 1;
   background-color: #fffbf1;
 }
+
+.flexible {
+  width: 100%;
+  height: 100%;
+}
