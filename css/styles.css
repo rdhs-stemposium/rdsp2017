@@ -171,6 +171,10 @@ a:hover {
   padding-bottom: 1.5rem;
 }
 
+#keynote-placeholder {
+  padding-top: 1.5rem !important;
+}
+
 /* Icon Resizing */
 .icon {
   padding-top: 10px;
