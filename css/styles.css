@@ -20,7 +20,7 @@ body {
   color: #000;
   background-color: inherit;
   position: sticky;
-  font-size: 2vh;
+  font-size: 12pt;
 }
 
 /* Text styles */
@@ -259,3 +259,41 @@ a:hover {
   width: 100%;
   height: 100%;
 }
+
+/* Mobile Scaling */
+
+  /* iPhone 7 and phones of similar size */
+
+  /* Portrait and Landscape */
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  }
+
+  /* Portrait */
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .section-title {
+      font-size: 20pt !important;
+    }
+
+    .header-logo {
+      max-width: 100%;
+    }
+
+  }
+
+  /* Landscape */
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+  }
