@@ -270,6 +270,39 @@ a:hover {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+        .header-logo {
+          max-width: 100%;
+        }
+
+        #nav {
+          font-size: 10pt
+        }
+
+        .event-heading {
+          font-size: 16pt;
+        }
+
+        .event-details {
+          font-size: 13pt;
+        }
+
+        .project-title {
+          font-size: 18pt;
+        }
+
+        .project-subtitle {
+          font-size: 14pt;
+        }
+
+        .tba-h1 {
+          font-size: 18pt;
+
+        }
+
+        .tba-h3 {
+          font-size: 14pt;
+        }
+
   }
 
   /* Portrait */
@@ -280,11 +313,7 @@ a:hover {
   and (orientation: portrait) {
 
     .section-title {
-      font-size: 20pt !important;
-    }
-
-    .header-logo {
-      max-width: 100%;
+      font-size: 30pt !important;
     }
 
   }
@@ -295,5 +324,10 @@ a:hover {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+
+    .section-title {
+      font-size: 36pt !important;
+    }
+
 
   }
