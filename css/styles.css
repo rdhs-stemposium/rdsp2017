@@ -10,6 +10,7 @@ body {
   background-color: #fffbf1;
   max-height: 100%;
   position: relative;
+  padding-right: 0px !important;
 }
 
 /* Nav elements */
