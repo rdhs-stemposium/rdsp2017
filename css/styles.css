@@ -253,6 +253,10 @@ a:hover {
 
 }
 
+.modal-body {
+  margin-top: -40px;
+}
+
 .modal-content {
   height: auto;
   min-width: 100%;
