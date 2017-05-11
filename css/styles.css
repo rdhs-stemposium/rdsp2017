@@ -253,6 +253,10 @@ a:hover {
 
 }
 
+.modal-header {
+  z-index: 999;
+}
+
 .modal-body {
   margin-top: -40px;
 }
