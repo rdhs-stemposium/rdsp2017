@@ -177,6 +177,26 @@ a:hover {
   padding-bottom: 1.5rem;
 }
 
+#prize {
+  margin-left: -50px !important;
+}
+
+.prize-title {
+  font-size: 30pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: -1.25rem;
+}
+
+.prize-subtitle {
+  font-size: 20pt;
+}
+
+.prize-icon {
+  max-width: 250px !important;
+  padding-bottom: 1.5rem;
+}
+
 #keynote-placeholder {
   padding-top: 1.5rem !important;
 }
@@ -315,6 +335,23 @@ a:hover {
         .tba-h3 {
           font-size: 14pt;
         }
+
+        .prize-title {
+          font-size: 20pt;
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-top: -1.25rem;
+        }
+
+        .prize-subtitle {
+          font-size: 14pt;
+        }
+
+        .prize-icon {
+          max-width: 100px !important;
+          padding-bottom: 1.5rem;
+        }
+
 
   }
 
