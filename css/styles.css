@@ -110,8 +110,13 @@ a:hover {
   font-size: 16pt;
 }
 
+.keynote-icon {
+  padding-top: 2rem;
+  max-width: 200px;
+}
+
 .project-title {
-  padding-top: 5rem !important;
+  padding-top: 1.5rem !important;
   font-size: 20pt;
   font-weight: 700;
 }
@@ -216,9 +221,9 @@ a:hover {
    background:transparent;
    position:relative;
    width:100%;
-   height:550px; /* your iframe height */
-   top:550px;  /* your iframe height */
-   margin-top:-550px;  /* your iframe height */
+   height:550px;
+   top:550px;
+   margin-top:-550px;
 }
 
 /* Bootstrap Components */
