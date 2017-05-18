@@ -129,6 +129,14 @@ a:hover {
   padding-top: 2rem
 }
 
+.hidden-link {
+  color: #000 !important;
+}
+
+.hidden-link:hover {
+  color: #000 !important;
+}
+
 /* Divs */
 #header {
   text-align: center;
