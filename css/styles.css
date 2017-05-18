@@ -135,6 +135,7 @@ a:hover {
 
 .hidden-link:hover {
   color: #000 !important;
+  text-decoration: none !important;
 }
 
 /* Divs */
